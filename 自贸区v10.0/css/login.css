@@ -1,0 +1,345 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-family:"黑体";
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border-box;
+}
+html,body {
+	width:100%;
+	height:100%;
+	
+}
+body {
+	background: url(../img/background.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-width: 1024px;
+	min-height: 768px;
+}
+ul,li{
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border:none;
+	
+}
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header {
+	width:100%;
+	height:20%;	 	 
+	margin: 0 auto;
+	background:url(../img/loginNav.png) repeat-x;
+}
+ .header_container {
+ 	width: 30%;
+	height:45%;
+	background:url(../img/markTile.png) no-repeat;
+	margin: 0 auto;
+	
+}
+.main {
+	width:60%;
+	height:45%;
+	min-width:800px;
+	/*border:1px solid red;*/
+	position:absolute;
+	top:27%;
+	left:20%;
+}
+.loginLeftImg {
+	width:50%;
+	height:100%;
+	/*border:1px solid blue;*/
+	position:relative;
+	top:0px;
+	left:0px;
+	float:left;
+	
+}
+.loginLeftImg .loginPC{
+	width:80%;
+	height:90%;
+	/*border:1px solid red;*/
+	background:url(../img/loginPc.png) no-repeat;
+	text-align:center;
+	background-size:100%;
+	position:absolute;
+	bottom:0px;
+	left:10%;
+	
+	
+}
+/*最高一层的警告图标*/
+.loginLeftImg .loginWarning{
+	/*width:71px;
+	height:71px;*/
+	width:13%;
+	height:16%;
+	background:url(../img/loginWarning.png) no-repeat;
+	background-size:100%;
+	position:absolute;
+	top:4%;
+	left:45%;
+	/*-webkit-animation: spin 2s linear infinite;*/
+}
+/*第二行放设置和数据分析*/
+.col2{
+	width:100%;
+	height:18%;
+	/*border:1px solid blueviolet;*/
+	position:absolute;
+	top:25%;
+	left:0px;
+}
+.col2>div{
+	width:11%;
+	height:75%;
+}
+.col2 .loginSet{
+	margin-left:15%;
+	background:url(../img/loginSetIcon.png) no-repeat;
+	background-size:100%;
+	
+}
+.col2 .loginDataAnalysis{
+	float:right;
+	margin-right:15%;
+	background:url(../img/loginDataAnalysis.png) no-repeat;
+	background-size:100%;
+	/*-webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */*/
+}
+.col3{
+	width:100%;
+	height:20%;
+	/*border:1px solid red;*/
+	position:absolute;
+	top:55%;
+	left:0px;
+	
+}
+.col3>div{
+	width:9%;
+	height:59%;
+}
+.col3 .loginFailureRecovery{
+	margin-left:9%;
+	background:url(../img/loginFailureRecovery.png) no-repeat;
+	background-size:100%;
+	/*-webkit-animation: spin 2s linear infinite;*/
+}
+.col3 .loginRemoteControl{
+	float:right;
+	margin-right:10%;
+	background:url(../img/loginRemoteConrol.png) no-repeat;
+	background-size:100%;
+	/*-webkit-animation: spin 2s linear infinite;*/
+}
+.loginLeftImg .modelIcon{
+	
+	/*border:1px solid greenyellow;*/
+	display:inline-block;
+	
+}
+/*.loginLeftImg .animation{
+	-webkit-animation: spin 2s linear infinite;
+}*/
+.loginPC p{
+	color:white;
+	margin:50% auto;
+}
+/*用户登录框*/
+.loginUserPsd{
+	width:50%;
+	height:100%;
+	float:left;
+	/*border:1px solid yellow;*/
+}
+.loginUserPsd .login .planeIcon{
+	
+	/*width:140px;
+	height:110px;*/
+	width:30%;
+	height:25%;
+	
+	background:url(../img/planeIcon.png) no-repeat;
+	background-size:100%;
+	/*border:1px solid rosybrown;*/
+	float:left;
+	position:relative;
+	/*top:-28px;
+	left:-35px;*/
+	top:-6.5%;
+	left:-7.5%;
+	overflow:visible;
+	/*display: none;*/
+	
+}
+/*登录模块内层div*/
+.loginUserPsd .login{
+	width:80%;
+	height:100%;
+	min-width:354px;
+	/*min-height:424px;*/
+	/*min-width:*/
+	/*height:424px;*/
+	/*border:1px solid greenyellow;*/
+	margin:0px auto;
+	color:white;
+}
+/*右边登录部分的头部*/
+.login .loginHeader{
+	width:80%;
+	height:13%;
+	/*border:1px solid red;*/
+	color:white;
+	text-align:center;
+	
+	background:rgb(2,145,211);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin:0px auto;
+	/*padding-right:85px;*/
+	padding-top:3%;
+	padding-right:26%;
+	font-size:1.4em;
+}
+/*ul对应loginMain 包含用户名 密码和登录*/
+.login .loginMain{
+	width:80%;
+	height:87%;	
+	/*border:1px solid blue;*/
+	margin:0px auto;
+	background:rgba(15,76,114,0.2);
+	/*position:relative;
+	top:10%;
+	left:0px;
+	*/
+	padding-top:1%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.loginMain li{
+	width:80%;
+	height:10%;
+	line-height:40px;
+	
+	margin:15% auto;
+	background: rgb(9,74,101);
+	border-radius:5px;
+	vertical-align:middle;
+	padding-left:4%;
+	/*background:url(../img/line.png) no-repeat;*/
+	
+}
+.login li i{
+	display:inline-block;
+	width:17%;
+	height:100%;
+	border:double black 5px;
+	-webkit-border-image: url(../img/line.png) 4;
+	border-left:none;
+	position:relative;
+	top:-10%;
+	left:0px;
+	
+	vertical-align:middle;	
+}
+
+.login li i#userNameIcon{
+	background:url(../img/userIcon.png) no-repeat;
+	background-size:55%;
+	background-position: 30% 32%;
+}
+.login li i#userPsdIcon{
+	background:url(../img/psdIcon.png) no-repeat;
+	background-size:45%;
+	background-position:32% 20%;
+}
+.login li input{
+	height:100%;
+	width:70%;
+	padding-left:7%;
+	background:none;
+	color:white;
+	vertical-align:middle;
+	border:none;
+	position:relative;
+	top:-11%;
+	left:0px;
+}
+/*文本框和密码框提示信息*/
+::-webkit-input-placeholder{
+	color:white;
+	font-size:16px;
+}
+.login .loginBtn{
+	text-align:center;
+	/*padding-top:0.1%;*/
+	line-height:100%;
+	padding-top:2%;
+	background:rgb(143,195,31);
+	font-size:1.4em;
+	
+}
+.loginFooter{
+	width:100%;
+	height:10%;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	/*border:1px solid blue;*/
+	text-align:center;
+	font-size:medium;
+	font-weight:normal;
+	color:white;
+}
+.loginFooter .copyright{
+	font-size:1.5em;
+	/*border:1px solid darkgoldenrod;*/
+	position:relative;
+	top:5%;
+	left:0px;
+}
+/*.text{
+	border:1px solid red;
+}*/
+.loginBtn a:link{
+ 		text-decoration: none;
+ 	}/*未被访问链接样式*/
+.loginBtn a:visited{
+		color:#fff;
+	}
+ /*.loginBtn:hover{
+		background: rgba(0,138,208,0.3);
+  		box-shadow: 0 0 3px white;
+	}*/
+.loginBtn a:active{
+		text-underline: none;
+	}
+input[type=text]:focus,input[type=password]:focus{
+		outline:none;
+	}
+/*创建一个名为spin的动画*/
+@-webkit-keyframes spin{
+	0%{
+		-webkit-transform:rotate(0deg)
+	}
+	50%{
+		-webkit-transform: rotate(180deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+	}
+}

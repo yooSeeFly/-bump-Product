@@ -1,0 +1,393 @@
+.header ul .fun {
+		background:url(../img/BlueIcon.png) no-repeat;
+		background-size:100%;
+	}
+	/*远程控制模块 对应导航栏背景为绿色*/
+	.header ul .fun_1 {
+		background:url(../img/GreenIcon.png) no-repeat;
+		background-size:100%;
+	}
+	.remote_wrap {
+		width: 100%;
+		height: 800px;
+		overflow: auto;
+		padding-top: 200px;
+		margin-top: 50px;
+
+	}
+	.clear {
+		zoom: 1;
+	}
+	.clear:after {
+		content:'';
+		display: block;
+		clear: both;
+	}
+	.remoteCon_left {
+		width: 52%;
+		float: left;
+		height: 300px;
+		/*border: 1px solid red;*/
+	
+	}
+	.remote_content {
+		width: 800px;
+		margin: 0 auto;
+	}
+	.remote_content .type1 {
+		width: 608px;
+		margin: 0 auto;
+
+	}
+	.remote_content .main {
+		position: relative;
+		margin-top: 25px;
+		padding-top: 40px;
+		width: 568px;
+		/*border: 1px solid blue;*/
+	}
+	.remote_content .main_tube {
+		width: 568px;
+		height: 5px;
+		background: url(../images/htred.gif) repeat-x;
+	}
+
+	 /*bump public*/
+	.remote_content .bumpr {
+		position: absolute;
+		width: 43px;
+		height: 47px;
+		z-index: 3;
+		background: url(../images/bump_r.png) no-repeat;
+	}
+	.remote_content .bumpb {
+		position: absolute;
+		width: 43px;
+		height: 47px;
+		z-index: 3;
+		background: url(../images/bump_b.png) no-repeat;
+	}
+	/*bump status*/
+	.remote_content .type1 .bumpr div {
+			position: absolute;
+			top: 0;
+			left: 13px;
+			width: 16px;
+			height: 10px;
+			background: url(../images/imgStatus/3.gif) no-repeat;
+
+	}
+	.remote_content .type1 .bumpr .active {
+			background: url(../images/imgStatus/3-.gif) no-repeat;
+	}
+	/*bump main bump*/
+	.remote_content .main .bumpr {
+		top: 12px;
+		left: 264px;
+	}
+	/*bump branch bump*/
+	.remote_content .branch .bumpr {
+		top: 20px;
+		left: 56px;
+	}
+	.remote_content .main_arrow1 {
+		position: absolute;
+		top: 24px;
+		left: 46px;
+		width: 22px;
+		height: 25px;
+		z-index: 3;
+		background: url(../images/valve_h_back.png) no-repeat;
+	}
+	.remote_content .main_arrow2 {
+		position: absolute;
+		top: 24px;
+		left: 396px;
+		width: 22px;
+		height: 25px;
+		z-index: 3;
+		background: url(../images/valve_h_back.png) no-repeat;
+	}
+	/*manometer public*/
+	.remote_content .manometer {
+		position: absolute;
+		z-index: 3;
+		width: 14px;
+		height: 20px;
+		background: url(../images/manometer.png) no-repeat;
+	}
+
+	.remote_content .type1 .main .manometer {
+		top: 24px;
+		left: 430px;
+	}
+
+	.remote_content .branch {
+		position: relative;
+		top: -1px;
+		left: 35%;
+		width: 160px;
+		height: 59px;
+		margin-top: -1px;
+		/*border: 1px solid blue;*/
+	}
+	
+	.remote_content .branch .branch_left {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 5px;
+		height: 58px;
+		background: url(../images/vtred.gif) repeat-y;
+	}
+	.remote_content .branch .branch_right {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 5px;
+		height: 58px;
+		background: url(../images/vtred.gif) repeat-y;
+	}
+	.remote_content .branch .branch_bottom {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 156px;
+		height: 5px;
+		margin: 0 2px;
+		z-index: 3;
+		background: url(../images/htred.gif) repeat-x;
+	}
+	.remote_content .branch .branch_bottom .branch_bottom_left {
+			position: absolute;
+			top: -2px;
+			left: -2px;
+			width: 7px;
+			height: 7px;
+			background: url(../images/tcdlred.png) no-repeat;
+	}
+	.remote_content .branch .branch_bottom .branch_bottom_right {
+			position: absolute;
+			top: -2px;
+			right: -2px;
+			width: 7px;
+			height: 7px;
+			z-index: 3;
+			background: url(../images/tcdrred.png) no-repeat;
+	}
+	.remote_content .branch .bumpr {
+		top: 26px;
+		left: 51px;
+	}
+	/*type1 end*/
+
+
+
+	.remote_content .type2 {
+		width: 708px;
+		margin-top: 60px;
+		padding-left: 20px;
+		/*border: 1px solid red;*/
+		height: 200px;
+	}
+	.remote_content .type2 .water_main {
+		position: relative;
+		/*border: 1px solid red;*/
+		width: 688px;
+
+	}
+	.remote_content .type2 .water_main_tube {
+		width: 688px;
+		height: 5px;
+		background: url(../images/ht.gif) repeat-x;
+	}
+	.remote_content .type2 .water_vice_tube {
+		position: absolute;
+		top: -270px;
+		left: 685px;
+		width: 5px;
+		height: 270px;
+		background: url(../images/vt.gif) repeat-y;
+	}
+	.remote_content .type2 .water_vice_down {
+		position: absolute;
+		bottom: -5px;
+		left:-2px;
+		width: 7px;
+		height: 7px;
+		background: url(../images/tcdr.png) no-repeat;
+	}
+	.remote_content .type2 .water_vice_up {
+		position: absolute;
+		top: -4px;
+		left: 0;
+		width: 7px;
+		height: 7px;
+		background: url(../images/tcul.png) no-repeat;
+	}
+	.remote_content .type2 .water_vice2 {
+		position: absolute;
+		top: -274px;
+		left: 692px;
+		width: 200px;
+		height: 5px;
+		background: url(../images/ht.gif) repeat-x;
+	}
+
+	/*water tube end*/
+	.remote_content .type2 .water_tank {
+		position: absolute;
+		left: 20px;
+		top: -41px;
+		width: 200px;
+		height: 82px;
+		/*border: 1px solid blue;*/
+	}
+	.remote_content .type2 .water_tank_container {
+		width: 200px;
+		height: 82px;
+		background: url(../images/wtankd.png) no-repeat;
+	}
+	.remote_content .type2 .water_tank_content {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 200px;
+		height: 62px;
+		background: url(../images/wtankd_w.png) no-repeat;
+	}
+	.remote_content .type2 .water_move {
+		position: absolute;
+		left: 0;
+		top: 20px;
+		width: 200px;
+		height: 65px;
+		/*border: 1px solid red;*/
+		background: url(../images/wtankd_a.gif) no-repeat;
+	}
+	/*water big tank end*/
+	.remote_content .type2 .water_tank_small {
+		position: absolute;
+		top: -300px;
+		left: 720px;
+		width: 100px;
+		height: 82px;
+		/*border: 1px solid blue;*/
+	}
+	.remote_content .type2 .water_tank_small_container {
+		width: 100px;
+		height: 82px;
+		background: url(../images/wtanks.png) no-repeat;
+	}
+	.remote_content .type2 .water_tank_small_content {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100px;
+		height: 65px;
+		background: url(../images/wtanks_w.png) no-repeat;
+	}
+	.remote_content .type2 .water_move_small {
+		position: absolute;
+		left: 0;
+		top: 20px;
+		width: 100px;
+		height: 65px;
+		/*border: 1px solid red;*/
+		background: url(../images/wtanks_a.gif) no-repeat;
+	}
+	.remote_content .type2 .water_arrow1 {
+		position: absolute;
+		width: 22px;
+		height: 25px;
+		top: -16px;
+		left: 245px;
+		background: url(../images/valve_h_back.png) no-repeat;
+	}
+	.remote_content .type2 .water_main .bumpb {
+		left: 340px;
+		top: -28px;
+	}
+	.remote_content .type2 .water_arrow2 {
+		 position: absolute;
+		 width: 22px;
+		 height: 25px;
+		 top: -16px;
+		 left: 570px;
+		 background: url(../images/valve_h_back.png) no-repeat;
+	}
+	.remote_content .type2 .manometer {
+		left: 500px;
+		top: -16px;
+	}
+	.remote_content .type2 .water_branch {
+		 	position: relative;
+			top: -1px;
+			left: 40%;
+			width: 160px;
+			margin-top: -2px;
+			height: 60px;
+			/*border: 1px solid red;*/
+	}
+	.remote_content .type2 .branch_left {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 5px;
+		height: 58px;
+		background: url(../images/vt.gif) repeat-y;
+	}
+	.remote_content .type2 .branch_right {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 5px;
+		height: 58px;
+		background: url(../images/vt.gif) repeat-y;
+	}
+	.remote_content .type2 .branch_bottom {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 156px;
+		height: 5px;
+		margin: 0 2px;
+		z-index: 3;
+		background: url(../images/ht.gif) repeat-x;
+	}
+	.remote_content .type2 .branch_bottom_left {
+		position: absolute;
+			top: -2px;
+			left: -2px;
+			width: 7px;
+			height: 7px;
+			background: url(../images/tcdl.png) no-repeat;
+	}
+	.remote_content .type2 .branch_bottom_right {
+		position: absolute;
+			top: -2px;
+			right: -2px;
+			width: 7px;
+			height: 7px;
+			background: url(../images/tcdr.png) no-repeat;
+	}
+	.remote_content .type2 .water_branch .bumpb {
+		top: 26px;
+		left: 58px;
+	}
+	.remote_content .type2 .bumpb div {
+			position: absolute;
+			top: 0;
+			left: 13px;
+			width: 16px;
+			height: 10px;
+			background: url(../images/imgStatus/2.gif) no-repeat;
+	}
+	.remote_content .type2 .bumpb .active {
+		background: url(../images/imgStatus/1.gif) no-repeat;
+	}
+	.remoteCon_right {
+		width: 42%;
+		float: right;
+		height: 300px;
+	}

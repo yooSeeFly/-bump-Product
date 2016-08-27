@@ -1,0 +1,9 @@
+.header ul .fun {
+		background:url(../img/BlueIcon.png) no-repeat;
+		background-size:100%;
+	}
+	/*数据分析模块 对应导航栏背景变为绿色*/
+	.header ul .fun_2 {
+		background:url(../img/GreenIcon.png) no-repeat;
+		background-size:100%;
+	}

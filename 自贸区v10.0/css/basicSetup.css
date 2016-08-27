@@ -1,0 +1,270 @@
+
+.header ul .fun {
+		background:url(../img/BlueIcon.png) no-repeat;
+		background-size:100%;
+	}
+	.header ul .fun_5 {
+		background:url(../img/GreenIcon.png) no-repeat;
+		background-size:100%;
+	}
+.dataAna {
+	width:92%;
+	height:86%;
+	position:absolute;
+	top:14%;
+	left:5px;
+	
+}
+.dataAna .setup_Left{
+	width:20%;
+	height:96%;
+	border:1px solid rgb(15,109,156);
+	background-color:rgba(14,70,112,.7);
+	float: left;
+	overflow: auto;
+	
+	
+}
+/* ._mCS_1 .mCSB_container {
+	width: 88%;
+} */
+/* ._mCS_1 .mCSB_draggerContainer {
+	width: 30px;
+	
+} */
+/* ._mCS_1 .mCSB_draggerRail {
+	width: 60px;
+	height: 100%;
+	background: #0d354b;
+}
+._mCS_1 .mCSB_dragger {
+	width: 60px;
+	background: #105f8b;
+}
+._mCS_1 .mCSB_dragger_bar {
+	width: 30px;
+	background: #105f8b;
+} */
+
+.html, body {
+	min-width: 1700px;
+	min-height: 900px;
+	overflow: auto;
+}
+
+.dataAna .setup_Left .left-list {
+		margin-top: 40px;
+}
+
+.dataAna .setup_Left .left-list>li {
+	width:100%;
+	color:#fff;
+	padding: 6px;
+	font-family:"黑体";
+	font-size:1em;
+	cursor: pointer;
+	vertical-align:middle;
+
+	
+}
+.dataAna .setupListItem>a {
+	height: 44px;
+	line-height: 44px;
+	display: block;
+	background: url(../img/setupFold.png) no-repeat 36px 10px;
+	text-indent: 80px;
+}
+.dataAna .setupListItem>a.active {
+	background: url(../img/setupUnfoldIcon.png) no-repeat 36px 10px;
+
+}
+.dataAna .setup_Left .left-list>li a:hover,.dataAna .setup_Left .left-list>li a.active {
+	background-color: #094771;
+}
+.dataAna .setup_Left .left-list>li ul {
+	width: 100%;
+	display: none;
+
+}
+.dataAna .setup_Left .left-list>li ul li {
+	width: 100%;
+	height: 32px;
+	text-indent: 100px;
+	line-height: 32px;
+}
+/*left end */
+
+/*right*/
+.dataAna .setup_RightTab{
+	/*width:8.5%;*/
+	width:72.5%;
+	height:44px;
+	/*border:1px solid red;*/
+	/*background:url(../img/dataRightTab.png) no-repeat;
+	background-size:100%;
+	text-align:center;*/
+	color:#fff;
+	background: #0b4a73;
+	border-bottom: 1px solid #0d4f78;
+	line-height: 6%;
+	font-family:"黑体";
+	font-size:14px;
+	float: right;
+	
+}
+.dataAna .setup_RightTab li{
+	width:11%;
+	height:44px;
+	display: block;
+	float: left;
+	border-right: 1px solid #0d4f78;
+	background: rgba(10,60,94,.8);
+	text-align:center;
+	letter-spacing: 2px;
+	/*border:1px solid green;*/
+	padding-top:10px;
+	padding-right: 4px;
+	cursor: pointer;
+}
+.dataAna .setup_RightTab li:hover {
+	background:#083452;
+}
+ .dataAna .setup_RightTab .active {
+ 	background:#083452;
+ 	cursor: text;
+ }
+ .dataAna .btn {
+ 	width: 5%;
+ 	outline: none;
+ 	border: none;
+ 	height: 44px;
+ 	background: #2579a5;
+ 	color: #fff;
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	text-align: center;
+ 	line-height: 44px;
+ 	cursor: pointer;
+ }
+
+.dataAna .setup_RightTab li i{
+	display:inline-block;	
+	width:20px;
+	height:24px;
+	background:url(../img/setupExitIcon.png) no-repeat;
+	background-size:100%;
+	margin:2px;
+	cursor: pointer;
+	vertical-align: middle;
+	
+}
+
+
+/*清浮动*/
+
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.dataAna-right {
+	position: relative;
+	width:72.5%;
+	height: 90%;
+	background: rgba(17,87,127,.6);
+	float: right;
+}
+.dataAna .dataAna-rightMd {
+	margin-top: 30px;
+	height: 200px;
+	overflow: auto;
+	
+}
+.dataAna .form-box {
+	width: 30%;
+	float: left;
+	margin-bottom: 16px;
+	text-align: right;
+	position: relative;
+}
+.dataAna .form-box.mapBox {
+	width: 40%;
+	padding-right: 10%;
+}
+.dataAna .dataAna-rightMd label {
+	color: #fff;
+}
+.dataAna .dataAna-rightMd input { 
+	width: 65%;
+	border-radius: 3px;
+	height: 34px;
+	border: 2px solid #176f93;
+	background: #0a4e77;
+	padding-left: 5px;
+	color: #fff;
+ }
+.dataAna .dataAna-rightMd .map {
+	 float: right;
+	 position: absolute;
+	 top: 7px;
+	 right: 20%;
+	 cursor: pointer;
+}
+#map {
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	z-index: 3;
+}
+.dataAna .dataAna-rightBot {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-top: 40px;
+	width:100%;
+	height: 450px;
+
+}
+.dataAna .dataAna-rightBot ul {
+	height: 50px;
+	width: 100%;
+	line-height: 40px;
+	border-top: 1px solid ;
+	background: rgba(14,76,103,.6);
+}
+.dataAna .dataAna-rightBot li {
+	height: 50px;
+	width: 10%;
+	float: left;
+	text-align: center;
+	padding-left: 4px;
+	padding-top: 10px;
+	line-height: 40px;
+	border-right: 1px solid #578197;
+}
+.dataAna .dataAna-rightBot li a {
+	text-decoration: none;
+	width: 90%;
+	height: 30px;
+	line-height: 30px;
+	padding:0 8px;
+	
+	display: block;
+	color: #fff;
+}
+.dataAna .dataAna-rightBot li a:hover,.dataAna .dataAna-rightBot .active {
+	background: #2f8baf;
+	border-radius: 30px;
+}
+
+
+
+

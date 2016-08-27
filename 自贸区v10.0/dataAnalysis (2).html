@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>上海自贸区泵房远程监控系统</title>
+		<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+		<link rel="stylesheet" href="css/common.css" />
+		<!--<link rel="stylesheet" href="css/index.css" />-->
+		<link rel="stylesheet" href="css/basicSetup.css" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/jquery-3.0.0.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script src="js/jquery.mCustomScrollbar.js"></script>
+		<script src="http://api.map.baidu.com/api?v=2.0&ak=lSs5x0CtdFvp81zUi3sxZo7Zcxm2BC8X"></script>
+	</head>
+	<body>
+		<div class="background">
+	
+			<div class="header">
+				<a  class="markTitle" href="index.html" target="_parent"></a>
+				<!--<img src="images/title.png" width="100%" height="87px" />-->
+				<!--<div class="exitBtn" onclick="window.close()" >
+					
+				</div>-->
+			
+				<div class="nav">
+					<ul id="ul1">
+						<li class="fun_1 fun" >
+							<a href="remoteControl.html" target="_parent"><i></i><h3>远程监控</h3></a>
+						</li>
+						<li class="fun_2 fun" >
+							<a href="dataAnalysis.html" target="_parent"><i></i><h3>数据分析</h3></a>
+						</li>
+						<li class="fun_3 fun">
+							<a href="warningInfo.html" target="_parent"><i></i><h3>报警信息</h3></a>
+						</li>
+						<li class="fun_4 fun"  > 
+							<a href="failureRecovery.html" target="_parent"><i></i><h3>故障巡检</h3></a>
+						</li>
+						<li class="fun_5 fun">
+							<a href="basicSetup.html" target="_parent"><i></i><h3>基本设置</h3></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="dataAna">
+				<div class="setup_Left">
+					<ul class="left-list">
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;" >设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+		    			<li class="setupListItem">
+		    				<a href="javascript:;" class="setupfoldIco">客户管理</a>
+		                    <ul class="info-list">
+		                        <li><a href="javascript:;">设备信息</a></li>
+		                        <li><a href="javascript:;">设备区域</a></li>
+		                        <li><a href="javascript:;">短息联系人</a></li>
+		                    </ul>
+		    			</li>
+	    			</ul>
+	    			<script>
+	    			$(function(){
+	    				//left Menu Toggle
+	    				(function(){	
+							$('.setupfoldIco').click(function(){
+								$(this).toggleClass('active').next().slideToggle();
+								var index=$('.setupfoldIco').index(this);
+								$('.setupfoldIco').each(function(i){
+									if(i!=index){
+										$('.setupfoldIco').eq(i).removeClass('active').next().slideUp();
+									}
+								});
+							});
+						})();
+					
+					//left scroll
+					
+					(function(){
+						$('.dataAna .setup_Left').mCustomScrollbar({
+							scrollButtons:{
+								enable: true,
+								scrollType:"continuous",
+								scrollSpeed:20,
+								scrollAmount:40
+							},
+							horizontalScroll:false,
+							set_width:false,
+						});
+					})();
+
+
+					//  right scroll
+					//  
+					(function(){
+						$('.dataAna-rightMd').mCustomScrollbar({
+							scrollButtons:{
+								enable: true,
+								scrollType:"continuous",
+								scrollSpeed:20,
+								scrollAmount:40
+							},
+							horizontalScroll:false
+						});
+					})();
+					//right nav Toggle
+						(function(){
+							$('.setup_RightTab li').click(function(){
+								$(this).addClass('active').siblings().removeClass('active');
+							});
+
+							$('.setup_RightTab li i').click(function(){
+								var index=$('.setup_RightTab li i').index(this);
+								$('.setup_RightTab li').eq(index).fadeOut(300);
+							});
+
+							$('.dataAna-rightBot>ul li a').click(function(){
+									$(this).addClass('active');
+									var index=$('.dataAna-rightBot>ul li a').index(this);
+										$('.dataAna-rightBot>ul li a').each(function(i){
+											if(i!=index){
+												$('.dataAna-rightBot>ul li a').eq(i).removeClass('active');
+											}
+									   });
+							});
+
+						})();
+
+
+						//  Map 
+						//  
+						$('.dataAna .dataAna-rightMd .map').click(function(){
+							$('#map').fadeIn(500);
+							mapCreate();
+						});
+						function mapCreate(){
+
+							var map=new BMap.Map('map');
+							var point=new BMap.Point(116.331398,39.897445);
+							map.centerAndZoom(point,12);
+
+							var geolocation = new BMap.Geolocation();
+							geolocation.getCurrentPosition(function(r){
+								if(this.getStatus() == BMAP_STATUS_SUCCESS){
+									var mk= new BMap.Marker(r.point);
+									map.addOverlay(mk);
+									map.panTo(r.point);
+									$('.mapContainer').val(r.point.lng+','+r.point.lat);
+									// alert('你的位置是'+r.point.lng+','+r.point.lat);
+									$('#map').fadeOut();
+								}else{
+									alert('failed'+this.getStatus());
+								}
+							},{enableHighAccuracy:true})
+						};
+
+
+					});
+	    		</script>
+				</div>
+				
+					<ul class="setup_RightTab">
+					<li class="active">设备信息<i></i></li>
+					<li>设备信息<i></i></li>
+					<li>设备信息<i></i></li>
+					<li>设备信息<i></i></li>
+				</ul>
+				<button class="btn">保存</button>	              
+				<div class="dataAna-right clearfix">
+					<div class="dataAna-rightMd clearfix">
+						<div class="form-box">
+							<label for="num">泵房编号</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">泵站名称</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">采购频率</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">手机号码</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">设备类型</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">运行泵数</label>
+						<input type="text" name="num" id='num'>
+						</div>
+
+
+
+
+						<div class="form-box">
+							<label for="num">排水泵数</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">所属客户</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box mapBox">
+							<label for="num">经纬度</label>
+							<input type="text" name="num" id='num' class="mapContainer">
+							<div class="map">
+								<img src="./img/map_bg.png" alt="map">
+								
+							</div>
+						</div>
+						<div class="form-box">
+							<label for="num">IP</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">端口</label>
+						<input type="text" name="num" id='num'>
+						</div>
+
+
+
+						<div class="form-box">
+							<label for="num">运行泵数</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">运行泵数</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">运行泵数</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">运行泵数</label>
+						<input type="text" name="num" id='num'>
+						</div>
+						<div class="form-box">
+							<label for="num">运行泵数</label>
+						<input type="text" name="num" id='num'>
+						</div>
+
+					</div>
+							<div id="map"></div>
+					<div class="dataAna-rightBot">
+						<ul class="dataAna-rightBot-list">
+							<li><a href="#">图片</a></li>
+							<li><a href="#">附件</a></li>
+							<li><a class="active" href="#">短信联系人</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
